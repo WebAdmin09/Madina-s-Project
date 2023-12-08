@@ -1,0 +1,52 @@
+.game {
+    position: absolute;
+    top: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.game__result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.congratimg {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.congrattitle {
+    color: blueviolet;
+    max-width: 600px;
+    font-size: 25px;
+}
+
+.reloadbtn {
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    border: 1px solid violet;
+    background-color: violet;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+
+.reloadbtn:hover {
+    background-color: rgb(137, 209, 14);
+    border: 1px solid rgb(137, 209, 14);
+    transition: 0.3s;
+}
+
+
+.link {
+    color: white;
+}

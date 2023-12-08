@@ -1,0 +1,104 @@
+.main__wrapper {
+    background-image: url('../assets/yard.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.treeImg {
+    max-width: 550px;
+    max-height: 500px;
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+}
+
+.btn {
+    position: absolute;
+    right: 900px;
+    bottom: 320px;
+}
+
+.apples {
+    position: relative;
+}
+
+.basketImg {
+    position: absolute;
+    bottom: 40px;
+    right: 140px;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.apple1 {
+    position: absolute;
+    top: 150px;
+    right: 200px;
+    max-width: 55px;
+}
+
+.apple2 {
+    position: absolute;
+    top: 280px;
+    right: 170px;
+    max-width: 55px;
+}
+
+.apple3 {
+    position: absolute;
+    top: 300px;
+    right: 250px;
+    max-width: 50px;
+}
+
+.apple4 {
+    position: absolute;
+    top: 220px;
+    right: 400px;
+    max-width: 60px;
+}
+
+.apple5 {
+    position: absolute;
+    top: 300px;
+    right: 435px;
+    max-width: 45px;
+}
+
+.apple6 {
+    position: absolute;
+    top: 350px;
+    right: 350px;
+    max-width: 50px;
+}
+
+.apple7 {
+    position: absolute;
+    top: 130px;
+    right: 400px;
+    max-width: 60px;
+}
+
+.apple8 {
+    position: absolute;
+    top: 150px;
+    right: 300px;
+    max-width: 45px;
+}
+
+.apple9 {
+    position: absolute;
+    top: 100px;
+    right: 250px;
+    max-width: 65px;
+}
+
+.apple10 {
+    position: absolute;
+    top: 250px;
+    right: 300px;
+    max-width: 50px;
+}
