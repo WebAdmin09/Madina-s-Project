@@ -214,3 +214,11 @@
     right: 205px;
     font-size: 35px;
 }
+
+.name {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    font-size: 34px;
+    color: #B32537;
+}

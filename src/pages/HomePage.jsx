@@ -177,6 +177,7 @@ const HomePage = () => {
           <span className={style["correct__num"]}>{correct}</span>
         </div>
         <div className={style["apples"]}>{appleElements}</div>
+        <h2 className={style["name"]}>Created by Madina</h2>
       </div>
       {step !== options.length ? (
         <Quiz
