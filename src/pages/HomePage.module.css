@@ -37,6 +37,23 @@
     position: absolute;
     top: 150px;
     right: 200px;
+    transition: 1s;
+    max-width: 55px;
+}
+
+.changed1 {
+    transition: 1s;
+    position: absolute;
+    top: 557px;
+    right: 250px;
+    max-width: 40px;
+}
+
+.changed11 {
+    transition: 1s;
+    position: absolute;
+    top: 500px;
+    right: 350px;
     max-width: 55px;
 }
 
@@ -47,11 +64,29 @@
     max-width: 55px;
 }
 
+.changed2 {
+    transition: 1s;
+    position: absolute;
+    top: 558px;
+    right: 235px;
+    max-width: 45px;
+    transform: rotate(20deg);
+}
+
 .apple3 {
     position: absolute;
     top: 300px;
     right: 250px;
     max-width: 50px;
+}
+
+.changed3 {
+    transition: 1s;
+    position: absolute;
+    top: 565px;
+    right: 220px;
+    max-width: 42px;
+    transform: rotate(-50deg);
 }
 
 .apple4 {
@@ -61,10 +96,28 @@
     max-width: 60px;
 }
 
+.changed4 {
+    transition: 1s;
+    position: absolute;
+    top: 565px;
+    right: 205px;
+    transform: rotate(-40deg);
+    max-width: 39px;
+}
+
 .apple5 {
     position: absolute;
     top: 300px;
     right: 435px;
+    max-width: 45px;
+}
+
+.changed5 {
+    transition: 1s;
+    position: absolute;
+    top: 560px;
+    transform: rotate(20deg);
+    right: 185px;
     max-width: 45px;
 }
 
@@ -75,11 +128,29 @@
     max-width: 50px;
 }
 
+.changed6 {
+    transition: 1s;
+    position: absolute;
+    top: 560px;
+    transform: rotate(-25deg);
+    right: 165px;
+    max-width: 40px;
+}
+
 .apple7 {
     position: absolute;
     top: 130px;
     right: 400px;
     max-width: 60px;
+}
+
+.changed7 {
+    transition: 1s;
+    position: absolute;
+    top: 550px;
+    transform: rotate(50deg);
+    right: 135px;
+    max-width: 50px;
 }
 
 .apple8 {
@@ -89,6 +160,15 @@
     max-width: 45px;
 }
 
+.changed8 {
+    transition: 1s;
+    position: absolute;
+    top: 533px;
+    transform: rotate(60deg);
+    right: 155px;
+    max-width: 55px;
+}
+
 .apple9 {
     position: absolute;
     top: 100px;
@@ -96,9 +176,41 @@
     max-width: 65px;
 }
 
+.changed9 {
+    transition: 1s;
+    position: absolute;
+    top: 545px;
+    transform: rotate(-60deg);
+    right: 195px;
+    max-width: 50px;
+}
+
 .apple10 {
     position: absolute;
     top: 250px;
     right: 300px;
     max-width: 50px;
+}
+
+.changed10 {
+    transition: 1s;
+    position: absolute;
+    top: 528px;
+    transform: rotate(30deg);
+    right: 215px;
+    max-width: 60px;
+}
+
+.basket__wrap {
+    background-color: black;
+    /* right: 150px; */
+    /* bottom: 0; */
+}
+
+.correct__num {
+    color: white;
+    position: absolute;
+    bottom: 35px;
+    right: 205px;
+    font-size: 35px;
 }
